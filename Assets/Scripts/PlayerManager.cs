@@ -72,11 +72,16 @@ public class PlayerManager : NetworkBehaviour
             else
             {
                 card.transform.SetParent(OpponentHand.transform, false);
+                card.GetComponent<CardFlipper>().Flip();
             }       
         }
         else if(type == "Played")
         {
             card.transform.SetParent(Table.transform,false);
+            if(!hasAuthority)
+            {
+                card.GetComponent<CardFlipper>().Flip();
+            }
         }
     }
 }

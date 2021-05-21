@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -5908501613765527923}
   - component: {fileID: -4206984941227182724}
   - component: {fileID: 490809299008740115}
+  - component: {fileID: -3912997148209635190}
   m_Layer: 6
   m_Name: Card1
   m_TagString: Untagged
@@ -93,8 +94,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b983ff4bee8258342ae43d243b898f95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   Canvas: {fileID: 0}
-  Table: {fileID: 0}
+  PlayerManager: {fileID: 0}
 --- !u!114 &552101004002715555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,3 +228,17 @@ MonoBehaviour:
   compressRotation: 0
   interpolateScale: 1
   syncScale: 1
+--- !u!114 &-3912997148209635190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7022889385597144821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2735b74aab42fe42b9a943339eca2a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardBack: {fileID: 21300000, guid: 4e848e8dc850f424aa49231b12d8660b, type: 3}
+  CardFront: {fileID: 21300000, guid: 8b31bb5b04d9ca741b1a79c1be7418fc, type: 3}
