@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Mirror;
 
 
-public class DragDrop : MonoBehaviour
+public class DragDrop : NetworkBehaviour
 {
     private bool isDragging = false;
+    private bool isDraggable = false;
     private GameObject startParent;
     private Vector2 startPosition;
     private GameObject table;
@@ -14,12 +16,17 @@ public class DragDrop : MonoBehaviour
     
 
     public GameObject Canvas;
-    public GameObject Table;
+    public PlayerManager PlayerManager;
+    ////public GameObject Table;
     
     void Start()
     {
         Canvas = GameObject.Find("GameCanvas");
-        Table = GameObject.Find("Table");
+        ////Table = GameObject.Find("Table");
+        if(hasAuthority)
+        {
+            isDraggable = true;
+        }
         
     }
 
@@ -39,6 +46,7 @@ public class DragDrop : MonoBehaviour
 
     public void StartDrag()
     {
+        if(!isDraggable) return;
         isDragging = true;
         startParent = transform.parent.gameObject;
         startPosition = transform.position;
@@ -46,10 +54,15 @@ public class DragDrop : MonoBehaviour
 
     public void EndDrag()
     {
+        if(!isDraggable) return;
         isDragging = false;
         if (isOverTable)
         {
             transform.SetParent(table.transform,false);
+            isDraggable = false;
+            NetworkIdentity networkIdentity = NetworkClient.connection.identity;
+            PlayerManager = networkIdentity.GetComponent<PlayerManager>();
+            PlayerManager.PlayCard(gameObject);
                     
         }
         else

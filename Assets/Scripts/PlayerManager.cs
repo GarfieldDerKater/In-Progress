@@ -28,15 +28,55 @@ public class PlayerManager : NetworkBehaviour
          base.OnStartServer();
          cards.Add(Card1);
          //cards.Add(Card2);
-     }
+         //cards.Add(Card3);
+         //cards.Add(Card4);
+         //cards.Add(Card5);
+         //cards.Add(Card6);
+         //cards.Add(Card7);
 
-     public void OnClick()
+     }
+     [Command]
+     public void CmdDealCards()
     {
-        for (int i= 0; i < 5;i++)
+        for (int i= 0; i < 6;i++)
         {
-            GameObject card = Instantiate(Card1, new Vector2(0, 0), Quaternion.identity);
-            card.transform.SetParent(PlayerHand.transform,false);
+            GameObject card = Instantiate(cards[Random.Range(0,cards.Count)], new Vector2(0, 0), Quaternion.identity);
+            NetworkServer.Spawn(card,connectionToClient);
+            RpcShowCard(card,"Dealt");
+            ////card.transform.SetParent(PlayerHand.transform,false);
         }
     
+    }
+
+    public void PlayCard(GameObject card)
+    {
+        CmdPlayCard(card);
+    }
+    
+    [Command]
+    void CmdPlayCard(GameObject card)
+    {
+        RpcShowCard(card,"Played");
+    }
+
+
+    [ClientRpc]
+    void RpcShowCard(GameObject card, string type)
+    {
+        if(type == "Dealt")
+        {
+            if(hasAuthority)
+            {
+                card.transform.SetParent(PlayerHand.transform,false);
+            }
+            else
+            {
+                card.transform.SetParent(OpponentHand.transform, false);
+            }       
+        }
+        else if(type == "Played")
+        {
+            card.transform.SetParent(Table.transform,false);
+        }
     }
 }
