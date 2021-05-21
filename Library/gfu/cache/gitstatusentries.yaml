@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-05-21T20:55:33.027+03:00
+  lastUpdatedAtString: 2021-05-21T23:01:13.601+03:00
   initializedAtString: 2021-05-21T14:33:13.345+03:00
   entries:
   - path: .gitattributes
@@ -37,6 +37,18 @@ MonoBehaviour:
   - path: Assets\Scripts\CardFlipper.cs.meta
     fullPath: C:\Users\likha\Desktop\Imaginarium\Assets\Scripts\CardFlipper.cs.meta
     projectPath: Assets\Scripts\CardFlipper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ChooseCard.cs
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Assets\Scripts\ChooseCard.cs
+    projectPath: Assets\Scripts\ChooseCard.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Scripts\ChooseCard.cs.meta
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Assets\Scripts\ChooseCard.cs.meta
+    projectPath: Assets\Scripts\ChooseCard.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -94,6 +106,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\02\024720bac84297237191ab658e4403f0
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\02\024720bac84297237191ab658e4403f0
+    projectPath: Library\Artifacts\02\024720bac84297237191ab658e4403f0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\02\0283575854c77408acf950d6ee33b1a1
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\02\0283575854c77408acf950d6ee33b1a1
     projectPath: Library\Artifacts\02\0283575854c77408acf950d6ee33b1a1
@@ -103,6 +121,18 @@ MonoBehaviour:
   - path: Library\Artifacts\04\047619d8ee631e00a5875ecf5de71f2f
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\04\047619d8ee631e00a5875ecf5de71f2f
     projectPath: Library\Artifacts\04\047619d8ee631e00a5875ecf5de71f2f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\04\04d37229f4119df19de2f24a7f2aa863
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\04\04d37229f4119df19de2f24a7f2aa863
+    projectPath: Library\Artifacts\04\04d37229f4119df19de2f24a7f2aa863
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\05\05358eae5d5686614a23afbfb8356b49
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\05\05358eae5d5686614a23afbfb8356b49
+    projectPath: Library\Artifacts\05\05358eae5d5686614a23afbfb8356b49
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -121,6 +151,12 @@ MonoBehaviour:
   - path: Library\Artifacts\05\05fc929a62ad1d812475f41d9efdd3ee
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\05\05fc929a62ad1d812475f41d9efdd3ee
     projectPath: Library\Artifacts\05\05fc929a62ad1d812475f41d9efdd3ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\06\06a119a695a5180c3c2f0a5c4a530e88
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\06\06a119a695a5180c3c2f0a5c4a530e88
+    projectPath: Library\Artifacts\06\06a119a695a5180c3c2f0a5c4a530e88
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -181,6 +217,12 @@ MonoBehaviour:
   - path: Library\Artifacts\0a\0ac9e1f8e3d3dc64de4a8420145781a8
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\0a\0ac9e1f8e3d3dc64de4a8420145781a8
     projectPath: Library\Artifacts\0a\0ac9e1f8e3d3dc64de4a8420145781a8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0b\0b0ff23782a6f2c24ef0e6002d15f067
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\0b\0b0ff23782a6f2c24ef0e6002d15f067
+    projectPath: Library\Artifacts\0b\0b0ff23782a6f2c24ef0e6002d15f067
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -640,6 +682,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\29\298c4e216e7be63e4d3db649e3858126
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\29\298c4e216e7be63e4d3db649e3858126
+    projectPath: Library\Artifacts\29\298c4e216e7be63e4d3db649e3858126
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\29\29d33fd04ea6773c66dc258ec9ed489a
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\29\29d33fd04ea6773c66dc258ec9ed489a
     projectPath: Library\Artifacts\29\29d33fd04ea6773c66dc258ec9ed489a
@@ -796,6 +844,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\2f\2ff10ed36a8877581e67ee2d777f6245
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\2f\2ff10ed36a8877581e67ee2d777f6245
+    projectPath: Library\Artifacts\2f\2ff10ed36a8877581e67ee2d777f6245
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\30\30e7fdfcf27ebbb1b25c103820acfbb5
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\30\30e7fdfcf27ebbb1b25c103820acfbb5
     projectPath: Library\Artifacts\30\30e7fdfcf27ebbb1b25c103820acfbb5
@@ -835,6 +889,12 @@ MonoBehaviour:
   - path: Library\Artifacts\32\32f5794cf4cf50c696073a8c19f0a416
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\32\32f5794cf4cf50c696073a8c19f0a416
     projectPath: Library\Artifacts\32\32f5794cf4cf50c696073a8c19f0a416
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\33\332913825074d30fd79cfd91aed0e315
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\33\332913825074d30fd79cfd91aed0e315
+    projectPath: Library\Artifacts\33\332913825074d30fd79cfd91aed0e315
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -907,6 +967,12 @@ MonoBehaviour:
   - path: Library\Artifacts\3a\3a72923e6572611e06e94347d41e94e6
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\3a\3a72923e6572611e06e94347d41e94e6
     projectPath: Library\Artifacts\3a\3a72923e6572611e06e94347d41e94e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3a\3a7fd9617a6c09f1b85c7f2ec2e14581
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\3a\3a7fd9617a6c09f1b85c7f2ec2e14581
+    projectPath: Library\Artifacts\3a\3a7fd9617a6c09f1b85c7f2ec2e14581
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1519,6 +1585,12 @@ MonoBehaviour:
   - path: Library\Artifacts\6b\6b28792e8ef0a1bb7cf9a513807f132e
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\6b\6b28792e8ef0a1bb7cf9a513807f132e
     projectPath: Library\Artifacts\6b\6b28792e8ef0a1bb7cf9a513807f132e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\6c\6c0ab4f1ca9aa2812ba54107cccf5d64
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\6c\6c0ab4f1ca9aa2812ba54107cccf5d64
+    projectPath: Library\Artifacts\6c\6c0ab4f1ca9aa2812ba54107cccf5d64
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2722,6 +2794,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\cb\cbc9ecf09d1436b516ad08f3bfcc6d14
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\cb\cbc9ecf09d1436b516ad08f3bfcc6d14
+    projectPath: Library\Artifacts\cb\cbc9ecf09d1436b516ad08f3bfcc6d14
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\cb\cbd57b610d09686490387aeb527462fb
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\cb\cbd57b610d09686490387aeb527462fb
     projectPath: Library\Artifacts\cb\cbd57b610d09686490387aeb527462fb
@@ -2737,6 +2815,12 @@ MonoBehaviour:
   - path: Library\Artifacts\ce\cec0bf5d7a9b7b1e8f20a1aa2631b0b8
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\ce\cec0bf5d7a9b7b1e8f20a1aa2631b0b8
     projectPath: Library\Artifacts\ce\cec0bf5d7a9b7b1e8f20a1aa2631b0b8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\cf\cf0eb054301c2b0a55ad9139e88df971
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\cf\cf0eb054301c2b0a55ad9139e88df971
+    projectPath: Library\Artifacts\cf\cf0eb054301c2b0a55ad9139e88df971
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -3154,6 +3238,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\ee\eec0488494b9f38b17e262d6fbabad8b
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\ee\eec0488494b9f38b17e262d6fbabad8b
+    projectPath: Library\Artifacts\ee\eec0488494b9f38b17e262d6fbabad8b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\ef\efec521e9bddd384ad8e68b711c976d5
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\ef\efec521e9bddd384ad8e68b711c976d5
     projectPath: Library\Artifacts\ef\efec521e9bddd384ad8e68b711c976d5
@@ -3304,6 +3394,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\Artifacts\fa\fae45d346fa4db680b143ab8a13da3d8
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\fa\fae45d346fa4db680b143ab8a13da3d8
+    projectPath: Library\Artifacts\fa\fae45d346fa4db680b143ab8a13da3d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\fb\fb8ecb81372098e68b773c921d46340b
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\Artifacts\fb\fb8ecb81372098e68b773c921d46340b
     projectPath: Library\Artifacts\fb\fb8ecb81372098e68b773c921d46340b
@@ -3427,6 +3523,12 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -4888,12 +4990,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\SceneVisibilityState.asset
-    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -7228,12 +7324,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: C:\Users\likha\Desktop\Imaginarium\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\StateCache\PrefabStageHierarchy\65\65d4cbee40b87b7a2bbe88ed4ce51a02.json
     fullPath: C:\Users\likha\Desktop\Imaginarium\Library\StateCache\PrefabStageHierarchy\65\65d4cbee40b87b7a2bbe88ed4ce51a02.json
     projectPath: Library\StateCache\PrefabStageHierarchy\65\65d4cbee40b87b7a2bbe88ed4ce51a02.json
@@ -8362,6 +8452,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-0abc57d9e21e88c40ad68089ef46393b
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-0abc57d9e21e88c40ad68089ef46393b
+    projectPath: Temp\UnityTempFile-0abc57d9e21e88c40ad68089ef46393b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-0abfe00b9765bf34e9e64a1f6eddf351
     fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-0abfe00b9765bf34e9e64a1f6eddf351
     projectPath: Temp\UnityTempFile-0abfe00b9765bf34e9e64a1f6eddf351
@@ -9370,6 +9466,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-42df67777c807e14189fa1289fd0188f
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-42df67777c807e14189fa1289fd0188f
+    projectPath: Temp\UnityTempFile-42df67777c807e14189fa1289fd0188f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-4366a77b887105147b4389c0579ce2bd
     fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-4366a77b887105147b4389c0579ce2bd
     projectPath: Temp\UnityTempFile-4366a77b887105147b4389c0579ce2bd
@@ -10327,6 +10429,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-7c33581817b3a3a41806b112f8d4614c
     fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-7c33581817b3a3a41806b112f8d4614c
     projectPath: Temp\UnityTempFile-7c33581817b3a3a41806b112f8d4614c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7cd0370b1428fcf498ae69ba29814a95
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-7cd0370b1428fcf498ae69ba29814a95
+    projectPath: Temp\UnityTempFile-7cd0370b1428fcf498ae69ba29814a95
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -11812,6 +11920,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\UnityTempFile-e021dc3e9241cf54b86648688adcad43
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-e021dc3e9241cf54b86648688adcad43
+    projectPath: Temp\UnityTempFile-e021dc3e9241cf54b86648688adcad43
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityTempFile-e0a7553a51ce3814cbfef51dc03ea52f
     fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-e0a7553a51ce3814cbfef51dc03ea52f
     projectPath: Temp\UnityTempFile-e0a7553a51ce3814cbfef51dc03ea52f
@@ -11875,6 +11989,12 @@ MonoBehaviour:
   - path: Temp\UnityTempFile-e424a3461b8d3f24496b93ab10c31996
     fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-e424a3461b8d3f24496b93ab10c31996
     projectPath: Temp\UnityTempFile-e424a3461b8d3f24496b93ab10c31996
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e437dc6c88dab1e40b329d128615a7c9
+    fullPath: C:\Users\likha\Desktop\Imaginarium\Temp\UnityTempFile-e437dc6c88dab1e40b329d128615a7c9
+    projectPath: Temp\UnityTempFile-e437dc6c88dab1e40b329d128615a7c9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

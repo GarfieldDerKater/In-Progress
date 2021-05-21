@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: -4206984941227182724}
   - component: {fileID: 490809299008740115}
   - component: {fileID: -3912997148209635190}
+  - component: {fileID: 4430071147555801513}
   m_Layer: 6
   m_Name: Card1
   m_TagString: Untagged
@@ -143,6 +144,22 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4430071147555801513}
+          m_TargetAssemblyTypeName: ChooseCard, Assembly-CSharp
+          m_MethodName: OnCardClick
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!61 &-2556520131216077838
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -242,3 +259,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardBack: {fileID: 21300000, guid: 4e848e8dc850f424aa49231b12d8660b, type: 3}
   CardFront: {fileID: 21300000, guid: 8b31bb5b04d9ca741b1a79c1be7418fc, type: 3}
+--- !u!114 &4430071147555801513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7022889385597144821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8091cf04e66a5a44b80f0b883595aa9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  PlayerManager: {fileID: 0}

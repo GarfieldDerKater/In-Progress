@@ -84,4 +84,26 @@ public class PlayerManager : NetworkBehaviour
             }
         }
     }
+
+    [Command]
+    public void CmdChooseSelfCard()
+    {
+        TargetSelfCard();
+    }
+    [Command]
+    public void CmdChooseOpponentCard(GameObject target)
+    {
+        NetworkIdentity opponentIdentity = target.GetComponent<NetworkIdentity>();
+        TargetOpponentCard(opponentIdentity.connectionToClient);
+    }
+    [TargetRpc]
+    void TargetSelfCard()
+    {
+        Debug.Log("Chosen by self");
+    }
+    [TargetRpc]
+    void TargetOpponentCard(NetworkConnection target)
+    {
+        Debug.Log("Chosen by opponent");
+    }
 }
