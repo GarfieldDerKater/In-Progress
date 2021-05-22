@@ -981,9 +981,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 28791780}
     m_Modifications:
+    - target: {fileID: 3543430265063139878, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
+      propertyPath: m_Delegates.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3543430265063139878, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7022889385597144821, guid: 27fa5a5325c0be64abf5cb0168ed5925, type: 3}
+    - target: {fileID: 3543430265063139878, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6242248154796027763, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
       propertyPath: sceneId
       value: 464249343
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253594422415128788, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
+      propertyPath: m_Constraint
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253594422415128788, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
+      propertyPath: m_ConstraintCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6485461137717005452, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
       propertyPath: m_Pivot.x
@@ -1073,5 +1093,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerHand
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3543430265063139878, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
+    - {fileID: 0}
+    - {fileID: 60508134684432641, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 345ae6ef385c8634686e7ae7cc1224a8, type: 3}

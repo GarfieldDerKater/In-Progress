@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 490809299008740115}
   - component: {fileID: -3912997148209635190}
   - component: {fileID: 4430071147555801513}
+  - component: {fileID: -1318105137759447399}
   m_Layer: 6
   m_Name: Card1
   m_TagString: Untagged
@@ -135,6 +136,18 @@ MonoBehaviour:
         - m_Target: {fileID: 4181838142506138784}
           m_TargetAssemblyTypeName: DragDrop, Assembly-CSharp
           m_MethodName: EndDrag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -1318105137759447399}
+          m_TargetAssemblyTypeName: CountCardsInHand, Assembly-CSharp
+          m_MethodName: cardCount
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -274,3 +287,19 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   PlayerManager: {fileID: 0}
+--- !u!114 &-1318105137759447399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7022889385597144821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f15958ba2fefd4393694708e4dacd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  PlayerManager: {fileID: 0}
+  numCards: 0

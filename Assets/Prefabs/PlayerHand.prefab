@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6253594422415128788}
   - component: {fileID: 6242248154796027763}
   - component: {fileID: 1571890889557948284}
+  - component: {fileID: 60508134684432641}
   m_Layer: 5
   m_Name: PlayerHand
   m_TagString: Untagged
@@ -140,3 +141,19 @@ MonoBehaviour:
   compressRotation: 0
   interpolateScale: 1
   syncScale: 1
+--- !u!114 &60508134684432641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485461137717005555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f15958ba2fefd4393694708e4dacd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  PlayerManager: {fileID: 0}
+  numCards: 0

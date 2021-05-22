@@ -14,14 +14,18 @@ public class DragDrop : NetworkBehaviour
     private bool isOverTable;
     
     
+    
+    
 
     public GameObject Canvas;
     public PlayerManager PlayerManager;
+    public GameObject PlayerHand;
     ////public GameObject Table;
     
     void Start()
     {
         Canvas = GameObject.Find("GameCanvas");
+        PlayerHand = GameObject.Find("PlayerHand");
         ////Table = GameObject.Find("Table");
         if(hasAuthority)
         {
@@ -46,7 +50,9 @@ public class DragDrop : NetworkBehaviour
 
     public void StartDrag()
     {
+        if(PlayerHand.transform.childCount!=6) isDraggable = false;
         if(!isDraggable) return;
+        
         isDragging = true;
         startParent = transform.parent.gameObject;
         startPosition = transform.position;
@@ -55,6 +61,8 @@ public class DragDrop : NetworkBehaviour
     public void EndDrag()
     {
         if(!isDraggable) return;
+         
+
         isDragging = false;
         if (isOverTable)
         {
@@ -63,6 +71,7 @@ public class DragDrop : NetworkBehaviour
             NetworkIdentity networkIdentity = NetworkClient.connection.identity;
             PlayerManager = networkIdentity.GetComponent<PlayerManager>();
             PlayerManager.PlayCard(gameObject);
+            
                     
         }
         else

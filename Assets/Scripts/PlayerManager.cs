@@ -38,25 +38,58 @@ public class PlayerManager : NetworkBehaviour
      [Command]
      public void CmdDealCards()
     {
-        for (int i= 0; i < 6;i++)
+        
+        if((Table.transform.childCount!=0)&&hasAuthority)
+        {
+            for (int i=0;i<Table.transform.childCount;i++)
+            {
+                Destroy(Table.transform.GetChild(0).gameObject);
+            }
+        }
+        else if((Table.transform.childCount!=0)&&(!hasAuthority))
+        {
+            for (int i=0;i<Table.transform.childCount;i++)
+            {
+                Destroy(Table.transform.GetChild(0).gameObject);
+            }
+        }
+        if(hasAuthority)
+        {
+        for (int i= 0; i < (6-PlayerHand.transform.childCount);i++)
         {
             GameObject card = Instantiate(cards[Random.Range(0,cards.Count)], new Vector2(0, 0), Quaternion.identity);
             NetworkServer.Spawn(card,connectionToClient);
             RpcShowCard(card,"Dealt");
             ////card.transform.SetParent(PlayerHand.transform,false);
         }
+        }
+        else 
+        {
+            for (int i= 0; i < (6-OpponentHand.transform.childCount);i++)
+        {
+            GameObject card = Instantiate(cards[Random.Range(0,cards.Count)], new Vector2(0, 0), Quaternion.identity);
+            NetworkServer.Spawn(card,connectionToClient);
+            RpcShowCard(card,"Dealt");
+            ////card.transform.SetParent(PlayerHand.transform,false);
+        }
+        }
+        
+       
     
     }
 
     public void PlayCard(GameObject card)
     {
+        
         CmdPlayCard(card);
+        
     }
     
     [Command]
     void CmdPlayCard(GameObject card)
     {
         RpcShowCard(card,"Played");
+        
     }
 
 
@@ -99,11 +132,26 @@ public class PlayerManager : NetworkBehaviour
     [TargetRpc]
     void TargetSelfCard()
     {
-        Debug.Log("Chosen by self");
+        //Debug.Log("Chosen by self");
     }
     [TargetRpc]
     void TargetOpponentCard(NetworkConnection target)
     {
-        Debug.Log("Chosen by opponent");
+        //Debug.Log("Chosen by opponent");
     }
+
+    [Command]
+    public void CmdCountCards(GameObject card)
+    {
+        RpcCountCards(card);
+    }
+
+    [ClientRpc]
+    void RpcCountCards(GameObject card)
+    {
+        card.GetComponent<CountCardsInHand>().numCards = PlayerHand.transform.childCount;
+        Debug.Log("Num of cards in hand is "+ card.GetComponent<CountCardsInHand>().numCards);
+    }
+
+   
 }
